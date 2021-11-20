@@ -1,17 +1,17 @@
 public class Main {
     public static void main(String[] args) {
         double balance = 2000;
-        double deposit_amount = 1500;
-        double result_balance;
-        int bonus_count = 0;
+        double depositAmount = 1500;
+        double resultBalance;
+        int bonusCount = 0;
 
-        if (deposit_amount > 1000) {
-            bonus_count = (int) deposit_amount / 100;
+        if (depositAmount > 1000) {
+            bonusCount = (int) depositAmount / 100;
         }
 
-        result_balance = balance + deposit_amount + bonus_count;
+        resultBalance = balance + depositAmount + bonusCount;
 
-        System.out.println("Result balance: " + result_balance);
-        System.out.println("Bonus count: " + bonus_count);
+        System.out.println("Result balance: " + resultBalance);
+        System.out.println("Bonus count: " + bonusCount);
     }
 }
